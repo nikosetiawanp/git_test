@@ -1,0 +1,262 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui;
+}
+
+
+/*------NAVIGATION------*/
+
+nav.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.logo {
+color: white;
+font-size: 24px;
+font-weight: bolder;
+*background-color: green;
+}
+
+.header-right {
+    display: flex;
+    gap: 16px;
+    *background-color: green;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    *background-color: red;
+}
+
+/*------HERO------*/
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    background: #1F2937;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    max-width: 600px;
+    *background-color: green;
+}
+h1 {
+    color: white;
+    flex: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    max-width: 350px;
+    margin: 0;
+    *background-color: blue;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    *background-color: blue;
+}
+
+button {
+    /*the button*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 16px;
+    border-style: none;
+    width: 144px;
+    height: 42px;
+    /*the font*/
+    font-weight: bolder;
+    color: white;
+}
+/*-----IMAGE-----*/    
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+    color: white;
+    background: grey;
+    *background-color: green;
+}
+
+/*------RANDOM------*/
+section.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    min-height: 400px;
+    padding: 1em;
+    gap: 1em;
+
+    *background-color: green;
+}
+
+.random-header {
+    *background-color: aqua;
+}
+
+.random h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 0;
+    *background-color: red;
+}
+
+.random-images {
+background: violet;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    *background-color: blue;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 1em;
+    max-width: 150px;
+    *background-color: yellow;
+   
+}
+
+.box {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: white;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 30px;
+}
+
+.info .boxes p {
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    *background-color: violet;
+}
+/*------QUOTE------*/
+section.quote {
+display: flex;
+align-items: center;
+flex-direction: column;
+background: #E5E7EB;
+padding: 5em;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+.quote p {
+    color: black;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: flex-start;
+    *background-color: aqua;
+}
+
+.quote div{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+    *background-color: yellow;
+}
+
+/*------CALL TO ACTION------*/
+section.action-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    *background-color: yellow;
+}
+.action {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 35px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 10px;
+}
+.action-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    *background-color: red;
+}
+.action-text div {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+    *background-color: green;
+}
+
+.action-text p {
+    font-size: 16px;
+    margin: 0;
+    *background-color: green;
+}
+/*-----BUTTON SECTION-----*/
+.action-button {
+    display: flex;
+    align-items: center;
+    *background-color: red;
+}
+
+.action button {
+    border: 2px solid white;
+
+}
+
+/*------footer------*/
+footer.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #1F2937;
+    padding: 20px;
+}
+/*------padding all------*/
+.header, .hero, .random, .quote, .action-background {
+    padding-left: 400px;
+    padding-right: 400px;
+}
